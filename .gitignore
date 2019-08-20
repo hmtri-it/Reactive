@@ -4,6 +4,8 @@
 # Log file
 *.log
 
+HELP.md
+
 # BlueJ files
 *.ctxt
 
@@ -11,6 +13,10 @@
 .mtj.tmp/
 
 # Package Files #
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
 *.jar
 *.war
 *.nar
@@ -18,6 +24,32 @@
 *.zip
 *.tar.gz
 *.rar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
